@@ -15,4 +15,4 @@ SLEEP_SECS=$(awk -v min=7200 -v max=14400 -v s="$(od -An -N4 -tu4 /dev/urandom 2
 echo "sleeping ${SLEEP_SECS}s (2h-4h random)"
 sleep "$SLEEP_SECS"
 pkill -9 chromium
-# sync-nonce: 619e920713f5f0ab
+# sync-nonce: a5c40df3031d9730
